@@ -19,8 +19,6 @@ To isolate the true meaning of customer issues, an initial dataset of 500 raw co
 **A) Principal Component Analysis (PCA) & Radar Mapping**
 To visualise the 384-dimensional vector space, PCA was applied to reduce the mathematics down to 6 core principal components. This Radar Chart demonstrates how the AI mathematically clusters different types of complaints (e.g., Credit Card Fraud vs. Loan Issues) based strictly on semantic distance.
 
-<img width="800" alt="Radar Chart of Semantic Clusters" src="1.png" />
-
 ### 2. Multi-Agent Cross-Lingual Pipeline
 To prevent language silos, the system deploys two distinct AI agents working in tandem with a Hierarchical Navigable Small World (HNSW) graph:
 Agent 1 (The Translator): Ingests complaints in any language (Azerbaijani, Russian, etc.) and translates the core intent to English to cross the Vector Space Gap.
