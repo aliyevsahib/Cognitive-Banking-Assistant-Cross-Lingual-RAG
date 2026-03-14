@@ -21,6 +21,7 @@ To visualise the 384-dimensional vector space, PCA was applied to reduce the mat
 
 <img width="800" alt="Radar Chart of Semantic Clusters" src="1.png" />
 
+
 ### 2. Multi-Agent Cross-Lingual Pipeline
 To prevent language silos, the system deploys two distinct AI agents working in tandem with a Hierarchical Navigable Small World (HNSW) graph:
 Agent 1 (The Translator): Ingests complaints in any language (Azerbaijani, Russian, etc.) and translates the core intent to English to cross the Vector Space Gap.
